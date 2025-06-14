@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <!-- Add these actions to your navigation_home fragment -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_navigation_home_to_foodWasteFragment"
+            app:destination="@id/foodWasteFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_paperWasteFragment"
+            app:destination="@id/paperWasteFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_plasticWasteFragment"
+            app:destination="@id/plasticWasteFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_metalWasteFragment"
+            app:destination="@id/metalWasteFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_hazardousWasteFragment"
+            app:destination="@id/hazardousWasteFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_glassWasteFragment"
+            app:destination="@id/glassWasteFragment" />
+    </fragment>
+
+    <!-- Add these fragments to your navigation graph -->
+    <fragment
+        android:id="@+id/foodWasteFragment"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.waste.FoodWasteFragment"
+        android:label="Sisa Makanan"
+        tools:layout="@layout/fragment_food_waste_detail" />
+
+    <fragment
+        android:id="@+id/paperWasteFragment"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.waste.PaperWasteFragment"
+        android:label="Kertas"
+        tools:layout="@layout/fragment_food_waste_detail" />
+
+    <fragment
+        android:id="@+id/plasticWasteFragment"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.waste.PlasticWasteFragment"
+        android:label="Plastik"
+        tools:layout="@layout/fragment_food_waste_detail" />
+
+    <fragment
+        android:id="@+id/metalWasteFragment"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.waste.MetalWasteFragment"
+        android:label="Logam non B3"
+        tools:layout="@layout/fragment_food_waste_detail" />
+
+    <fragment
+        android:id="@+id/hazardousWasteFragment"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.waste.HazardousWasteFragment"
+        android:label="B3"
+        tools:layout="@layout/fragment_food_waste_detail" />
+
+    <fragment
+        android:id="@+id/glassWasteFragment"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.waste.GlassWasteFragment"
+        android:label="Kaca"
+        tools:layout="@layout/fragment_food_waste_detail" />
+
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.notifications.NotificationsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications">
+        <argument
+            android:name="classificationType"
+            app:argType="string" />
+        <argument
+            android:name="imageUri"
+            app:argType="string" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_garbageBank"
+        android:name="com.dicoding.picodiploma.loginwithanimation.view.user.ui.BankSampah.BankSampahFragment"
+        android:label="@string/title_garbageBank"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

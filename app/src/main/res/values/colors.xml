@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream_background">#FFF8E7</color>
+    <color name="army_green">#4A5D23</color>
+    <color name="input_text">#4A4A4A</color>
+    <color name="nav_icon">#FFF8E7</color> <!-- Abu-abu gelap -->
+    <color name="cream_active">#D2B48C</color>
+    <color name="cream_inactive">#FFF8E7</color>
+
+    <!-- Waste category colors -->
+    <color name="food_waste_color">#9CC25E</color>
+    <color name="paper_waste_color">#A0C8E2</color>
+    <color name="plastic_waste_color">#9A7CB7</color>
+    <color name="metal_waste_color">#7D8BA1</color>
+    <color name="hazardous_waste_color">#E07A5F</color>
+    <color name="glass_waste_color">#45B69C</color>
+
+
+
+</resources>

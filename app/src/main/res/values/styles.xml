@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style untuk ChipChoice -->
+    <style name="CustomChipChoice" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background_selector</item>
+        <item name="chipStrokeColor">@color/army_green</item>
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="android:textColor">@color/chip_text_selector</item>
+        <item name="chipCornerRadius">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@android:color/transparent</item>
+    </style>
+</resources>

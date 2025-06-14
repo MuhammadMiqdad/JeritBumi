@@ -1,0 +1,5 @@
+<!-- res/drawable/blinking_marker.xml -->
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/red_marker"/>
+    <item android:drawable="@drawable/marker_highlight" android:state_enabled="true"/>
+</animated-selector>

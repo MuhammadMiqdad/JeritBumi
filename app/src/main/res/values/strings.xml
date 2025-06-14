@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Jerit Bumi</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Saatnya peduli lingkungan dengan cara yang mudah dan cerdas. Mulai kenali jenis sampah disekitar anda, temukan bank sampah terdekat, dan jadwalkan pickup sampah onlinemu. Yuk, mulai aksi nyata lewat Jerit Bumi untuk bumi yang lebih bersih!</string>
+    <string name="title_welcome_page">Selamat datang di Jerit Bumi!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Ayo lakukan dan login segera</string>
+    <string name="title_login_page">Sudahkah anda memilah sampah hari ini?</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Datang Di Aplikasi JERIT BUMI 🎊.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Trash Classification</string>
+    <string name="title_notifications">Marketplace</string>
+    <string name="analyze">Analyze</string>
+    <string name="gallery">Upload Image</string>
+    <string name="camera">Take a Picture</string>
+    <string name="welcoming">Halo Para Aktivis lingkungan!</string>
+    <string name="result_title">HASIL KLASIFIKASI SAMPAH</string>
+    <string name="Login_to_Register">Belum punya akun? Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_garbageBank">Bank Sampah</string>
+
+    <string name="location_saved_successfully">Location saved successfully</string>
+    <string name="failed_to_save_location">Failed to save location</string>
+    <string name="no_saved_location">Tidak Ada Lokasi Yang tersimpan</string>
+
+
+    <!-- Deskripsi Sampah -->
+    <string name="food_waste_description">Sisa makanan adalah sampah organik yang berasal dari sisa-sisa makanan yang tidak dikonsumsi. Sampah ini dapat terurai secara alami dan dapat dimanfaatkan kembali sebagai kompos.</string>
+    <string name="paper_waste_description">Kertas adalah sampah yang berasal dari bahan kertas, karton, dan kardus. Sampah kertas dapat didaur ulang menjadi kertas daur ulang.</string>
+    <string name="plastic_waste_description">Plastik adalah sampah yang terbuat dari bahan polimer sintetis yang sulit terurai. Sampah plastik dapat didaur ulang menjadi berbagai produk plastik baru.</string>
+    <string name="metal_waste_description">Logam non B3 adalah sampah yang terbuat dari bahan logam seperti kaleng, tutup botol, dan peralatan logam lainnya yang tidak mengandung bahan berbahaya.</string>
+    <string name="hazardous_waste_description">B3 (Bahan Berbahaya dan Beracun) adalah sampah yang mengandung zat berbahaya yang dapat membahayakan kesehatan manusia dan lingkungan.</string>
+    <string name="glass_waste_description">Kaca adalah sampah yang terbuat dari bahan kaca seperti botol kaca, gelas, dan pecahan kaca. Sampah kaca dapat didaur ulang menjadi produk kaca baru.</string>
+
+    <!-- Cara Pengolahan -->
+    <string name="food_waste_processing">1. Komposting: Ubah sisa makanan menjadi kompos dengan metode biopori atau komposter sederhana.\n\n2. Biogas: Sisa makanan dapat diolah menjadi biogas untuk bahan bakar memasak.\n\n3. Pakan Ternak: Sisa makanan tertentu dapat diolah menjadi pakan ternak seperti untuk unggas atau ikan.\n\n4. Vermikompos: Gunakan cacing tanah untuk menguraikan sisa makanan menjadi pupuk berkualitas tinggi.</string>
+    <string name="paper_waste_processing">1. Daur Ulang: Kertas bekas dapat didaur ulang menjadi kertas baru dengan cara dipilah, dicacah, dan diolah kembali.\n\n2. Kerajinan: Kertas bekas dapat dimanfaatkan untuk membuat kerajinan tangan seperti kotak hadiah, hiasan dinding, dll.\n\n3. Paperclay: Kertas dapat dihancurkan dan dicampur dengan lem untuk membuat material seperti tanah liat untuk kerajinan.</string>
+    <string name="plastic_waste_processing">1. Daur Ulang: Plastik dapat dilebur dan dibentuk kembali menjadi produk plastik baru.\n\n2. Ecobrick: Botol plastik dapat diisi dengan sampah plastik lainnya hingga padat untuk membuat material bangunan.\n\n3. Kerajinan: Plastik bekas dapat diubah menjadi berbagai kerajinan seperti tas, dompet, atau hiasan.\n\n4. Bahan Bakar: Plastik dapat dikonversi menjadi bahan bakar melalui proses pirolisis.</string>
+    <string name="metal_waste_processing">1. Daur Ulang: Logam dapat dilebur dan dibentuk kembali menjadi produk logam baru.\n\n2. Kerajinan: Logam bekas seperti kaleng dapat diubah menjadi berbagai kerajinan dan hiasan.\n\n3. Elektroplating: Logam bekas dapat dilapisi kembali untuk mengembalikan kualitasnya.\n\n4. Pengecoran Ulang: Logam bekas dapat dilelehkan dan dicetak menjadi produk baru.</string>
+    <string name="hazardous_waste_processing">1. Pengumpulan Khusus: B3 harus dikumpulkan secara terpisah dan dikirim ke pusat pengolahan B3.\n\n2. Netralisasi: Bahan kimia berbahaya dapat dinetralisasi untuk mengurangi bahayanya.\n\n3. Solidifikasi/Stabilisasi: Mengubah limbah B3 menjadi bentuk padat yang stabil sehingga tidak berbahaya.\n\n4. Insinerasi: Pembakaran limbah B3 pada suhu sangat tinggi dengan pengolahan gas buang yang ketat.</string>
+    <string name="glass_waste_processing">1. Daur Ulang: Kaca dapat didaur ulang 100% tanpa kehilangan kualitas atau kemurnian.\n\n2. Crushed Glass: Kaca yang dihancurkan dapat digunakan untuk bahan bangunan, dekorasi, atau filter air.\n\n3. Kerajinan: Kaca bekas dapat dibentuk menjadi berbagai kerajinan seperti vas bunga atau hiasan.\n\n4. Agregat Beton: Kaca yang dihancurkan dapat dicampur dengan beton untuk menggantikan pasir.</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+</resources>
